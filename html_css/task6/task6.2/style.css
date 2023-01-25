@@ -1,0 +1,35 @@
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.parent {
+  background-image: url("https://i.picsum.photos/id/71/400/400.jpg?hmac=jwnuiCB39VWvyS6KUQzh4eAnaboQj7UDxlYqKXCceBU");
+  background-size: cover;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: 125px;
+  left: 125px;
+  display: inline-block;
+}
+
+.child {
+  position: absolute;
+}
+
+.parent2 {
+  background-image: url("https://i.picsum.photos/id/71/400/400.jpg?hmac=jwnuiCB39VWvyS6KUQzh4eAnaboQj7UDxlYqKXCceBU");
+  background-size: cover;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: 125px;
+  left: 500px;
+  display: inline-block;
+}
+
+.child2 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  inset: 0;
+}
