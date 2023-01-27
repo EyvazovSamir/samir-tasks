@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
+
+body {
+  font-family: "Assistant", sans-serif;
+  box-sizing: border-box;
+  background-color: black;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1067px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.title {
+  display: flex;
+}
+
+.milanholidays {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.milan {
+  font-size: 29px;
+  font-weight: 600;
+  color: #f26522;
+}
+.holidays {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f26522;
+}
+
+.mail {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+  color: #ffffff;
+}
+.number {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+  color: #ffffff;
+}
+.cards {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.shopping {
+}
+.img {
+  border: 2px solid;
+}
+.text {
+  padding-top: 10px;
+  text-align: center;
+}
+.text:hover {
+  color: #f26522;
+}
+
+.footer {
+  font-size: 12px;
+  margin-top: 30px;
+  text-align: center;
+}
