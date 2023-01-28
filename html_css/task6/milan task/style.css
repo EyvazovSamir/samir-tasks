@@ -52,12 +52,14 @@ body {
   color: #ffffff;
 }
 .cards {
+  position: relative;
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
 }
-.shopping {
+.pos-rel {
+  position: relative;
 }
 .img {
   border: 2px solid;
@@ -74,4 +76,42 @@ body {
   font-size: 12px;
   margin-top: 30px;
   text-align: center;
+}
+
+.price {
+  display: none;
+  position: absolute;
+  background-color: #f26522;
+  height: 70px;
+  width: 310px;
+  border: 1px solid;
+  bottom: 35px;
+}
+
+.orange {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.from-price {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.value {
+  font-size: 20px;
+}
+.from {
+  font-size: 13px;
+}
+
+.details {
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.hover:hover .price {
+  display: flex;
 }
