@@ -1,6 +1,7 @@
 body {
   display: flex;
   justify-content: center;
+  /* A: height verek ki, ortaya gelsin. en yaxsisi ise body-e yox, icerisinde div verek */
 }
 
 .das {
@@ -11,6 +12,7 @@ body {
   height: 150px;
   width: 350px;
 }
+
 .third {
   display: flex;
   justify-content: space-between;
