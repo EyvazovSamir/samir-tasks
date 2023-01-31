@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
+
+body {
+  background-image: url("./photo_2022-10-07_23-17-38.jpg");
+  background-size: cover;
+  font-family: "Assistant", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 0;
+}
+
+.login {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(255, 251, 255);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 25px;
+}
+
+.main input {
+  height: 40px;
+  border: 1px solid #061e37;
+  border-radius: 5px;
+  background: transparent;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.609);
+}
+
+.email {
+  padding-left: 10px;
+}
+
+.pass {
+  padding-left: 10px;
+}
+
+.btn {
+  background-color: rgb(50, 152, 50);
+  color: white;
+  border: 1px solid #061e37;
+  border-radius: 5px;
+  height: 30px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+label {
+  color: white;
+}
+
+.forgot {
+  color: rgba(198, 201, 204, 0.482);
+  text-decoration: none;
+}
+
+label input {
+  display: none;
+}
+
+label span {
+  height: 13px;
+  width: 13px;
+  border: 1px solid grey;
+  display: inline-block;
+  position: relative;
+  background-color: black;
+}
+
+/* Style its checked state...with a ticked icon */
+.checkbox:checked + span:before {
+  content: "\2713";
+  position: absolute;
+  top: -5px;
+  left: 1px;
+}
