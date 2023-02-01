@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant&family=Kanit:wght@400;600&display=swap");
+
+body {
+  background-color: rgb(218, 61, 61);
+  font-family: "Kanit", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  border: 1px solid rgb(233, 64, 64);
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.join {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(226, 94, 94);
+  border-bottom: 1px solid rgb(167, 162, 162);
+  padding-bottom: 20px;
+  margin: 0 10px 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  margin: 0 10px 0;
+  gap: 7px;
+}
+
+.main input {
+  height: 40px;
+  border: 1px solid #cccacacf;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+input::placeholder {
+  color: #cccacacf;
+}
+
+.fa-solid {
+  position: absolute;
+  right: 5%;
+  top: 35%;
+  font-size: 15px;
+}
+
+.input input {
+  padding-left: 12px;
+}
+
+.main input:focus {
+  outline-color: rgb(226, 94, 94);
+}
+
+.btn {
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  background-color: rgb(226, 94, 94);
+  color: white;
+  border: 1px solid #061e37;
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+}
